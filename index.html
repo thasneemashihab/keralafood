@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Tasty Foods</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-warning pt-3 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fw-bold" href="#">Kerala Style Food</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Orders">Orders</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Deals
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Location</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button  class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide ">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img src="carousel1.avif" class= "slide d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-dark">Non-Veg Items</h2>
+        </div>
+      </div>
+        <div class="carousel-item ">
+          <img src="carousel2.jpg" class=" slide d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-dark">Veg Items</h2>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <img src="carousel3.avif" class="slide d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          <h2 >Chinese items</h2>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div></div>
+    <!--orders-->
+    <div class="container" id="Orders">
+      <h1 class="text-center ">Order Your Foods Now</h1>
+      <div class="row my-5">
+        <div class="col-md-4">
+          <div class="card text-center border-3 border-warning" style="width: 18rem; height:37rem">
+            <img src="sayda.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sadya </h5>
+              <p class="card-text">Kerala Style Sadya</p>
+              <h5 class="card-text text-danger">Rs:100.00</h5>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center border-3 border-warning" style="width: 18rem;">
+            <img src="dosha.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dosha</h5>
+              <p class="card-text">Traditional dosha and chutney</p>
+              <h5 class="card-text text-danger">Rs:80.00</h5>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center border-3 border-warning" style="width: 18rem;">
+            <img src="idli.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">idli</h5>
+              <p class="card-text">Traditional idli,sambar and chutney</p>
+              <h5 class="card-text text-danger">Rs:90.00</h5>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-4">
+          <div class="card text-center border-3 border-warning" style="width: 18rem;">
+            <img src="chicken biriyani.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Chicken Biriyani</h5>
+              <p class="card-text">Kerala style chicken biriyani</p>
+              <h5 class="card-text text-danger">Rs:120.00</h5>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center border-3 border-warning" style="width: 18rem;height:37rem;">
+            <img src="beef fry.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beef Fry</h5>
+              <p class="card-text">Yummy and tasty beef fry</p>
+              <h5 class="card-text text-danger">Rs:130.00</h5>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center border-3 border-warning" style="width: 18rem;">
+            <img src="Fish curry.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fish Curry</h5>
+              <p class="card-text">traditional fish curry</p>
+              <h5 class="card-text text-danger">Rs:60.00</h5>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+     <div class="container-fluid bg-warning" id="footer">
+      <div class="row">
+        <div class=" col-sm-6">
+          <h1 class="text-center">Location</h1>  
+          <h3>Kerala Restaurant</h3>
+          <h6>Palakkad,Kerala</h6>
+          <h6>mob:8945771121</h6>
+          <h6>Email:Keralafood@gmail.com</h6>
+          <h6>website:www.keralafood.com"</h6>
+        </div>
+        <div class=" col-sm-6 ">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15676.295792694857!2d76.17976779469916!3d10.805648329516565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7c5d32fa26e1b%3A0x42cdd17f5e236751!2sPattambi%2C%20Kerala%20679303!5e0!3m2!1sen!2sin!4v1747406672074!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+  </body>
